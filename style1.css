@@ -1,0 +1,25 @@
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+/* большая кнопка */
+.button{
+background-color:#E1E1DF;
+padding:25px 60px;
+font-size:24px;
+border:none;
+cursor:pointer;
+border-radius:10px;
+
+transition:background-color 0.3s ease;
+}
+
+/* эффект */
+.button:hover{
+background-color:#1F1F1E;
+color:white;
+}
